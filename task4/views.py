@@ -15,5 +15,8 @@ def game(request):
 def cart(request):
     return render(request, 'fourth_task/cart.html')
 
-# def base(request):
-#     return render(request, 'menu.html')
+def base(request):
+    return render(request, 'fourth_task/base.html')
+
+
+
